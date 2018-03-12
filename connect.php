@@ -7,7 +7,6 @@ class connect
 	function __Construct()
 	{
 		 $this->conn = new mysqli("localhost","root","root","teamdm");
-		//$this->conn = new mysqli("localhost","root","d3s1gN","task_tracker_priyanka");
 	}
 }
 class global_function extends connect
